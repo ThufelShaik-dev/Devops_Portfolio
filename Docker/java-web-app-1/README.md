@@ -1,3 +1,4 @@
+## uploaded this in DockerHub with name as "java-web-app-1" so that we can pull and check output
 # Dockerizing java web application i.e Pure java without spring boot
 
 1. Launch an EC2 instance and connect with gitbash
