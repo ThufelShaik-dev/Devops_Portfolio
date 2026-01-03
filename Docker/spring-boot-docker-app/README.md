@@ -11,12 +11,12 @@
 5. mvn clean package
 6. ls -l target # verify whether jar file generated or not
 7. Build the image using the following command
-   docker build -t spring-boot-rest-api .
+   docker build -t sb-app .
 
 8. docker images
 
 9. Run the Docker container using the command shown below.
-   docker run -d -p 8080:8080 spring-boot-rest-api
+   docker run -d -p sb-app
 
 10. Add 8080 in security Inbound rules
 11. The application will be accessible at http://EC2-publicIP:8080/
