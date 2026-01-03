@@ -4,7 +4,7 @@
 
 1. Launch and EC2 Instance and connect with git bash 
 2. sudo yum install git
-3. git clone <this git repo URL>
+3. git clone -this git repo URL-
 4. cd maven-web-app
 5. mvn clean package
 6. docker build -t maven-web-app .
